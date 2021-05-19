@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.maDiv{
+    background-image: url("restaurant-willette-paris.jpeg") ;
+    height: 100vh; 
+    background-repeat: no-repeat ;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+}
+
+h1, h2, p, a {
+    color:white;
+    text-decoration: none;
+}
+
+.maDivContenu{
+    display: flex;
+    flex-direction :column;
+    justify-content: center;
+    align-items: center;
+}
+.monBouton{
+    border:solid;
+    border-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
