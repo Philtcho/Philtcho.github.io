@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.landingPage{
+    height: 100vh;
+    background-image: url("images/15.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.resteLandingPage{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.navBar{
+    width: 100vw;
+    height: 20%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF0026;
+}
+.connexion{
+    width: 40%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputZone{
+    font-size: 1.25em;
+}
+.logo{
+    width:60%;
+}
+.imgLogo{
+    width: 120px;
+}
+.libAccroche{
+    color:white;
+    font-size: 2em;
+    background-color: teal;
+}
+.grpCampaign{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgCampaig{
+    width: 20%;
+}
+.grpStat{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.statistiques{
+
+    background-color:gray;
+    opacity: 50%;
+    padding: 20px;
+}
+.statistiques>h1{
+    text-align: center;
+}
+
+.statistiques>p{
+    text-align: center;
+}
+.blocStat{
+    background-color: white;
+    border: black;
+    border-width: 1px;
+    border:solid;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.blocStat > h1{
+    font-size: 5em;
+}
+
